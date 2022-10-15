@@ -55,8 +55,10 @@ function playButton(number) {
   number = number.toString().padStart(2, '0');
   const invention = bach[`invention-${number}`]
   return (
-    <button className="playButton" onClick={() => loadMidi(invention)}>
-    {invention.header.name}
+    <button className="play-button" onClick={() => loadMidi(invention)}>
+      <img className="play-button__icon--play" src="images/play3.svg" />
+      {invention.header.name}
+      <img className="play-button__icon--beagle-head" src="images/beagle-head.png" />
     </button>
   )
 }
@@ -64,12 +66,74 @@ function playButton(number) {
 function App() {
   console.log(bach)
   return (
-    
-    <section className="section-invention">
-      <h2>"Two Bark" Inventions</h2>
-      <div className="button-group">
-        <button onClick={() => playBark("C5")}>C</button>
-        {playButton(1)}
+  <div>
+    <header className="section-header container">
+      <h1 className="heading-1">Bachgle</h1>
+      <img className="header-image" src="images/bachgle.png" />
+      <p className="description">Hear the greatest composer of canine-kind.</p>
+      <button className="play-button play-button--play" onClick={() => playBark("C5")}>
+        Initialize
+      </button>
+    </header>
+    <section className="section-invention container">
+      <h2 className="heading-2">"Two-Bark" Inventions</h2>
+      <ol className="button-group">
+        <li>
+          {playButton(1)}
+        </li>
+        <li>
+          {playButton(2)}
+        </li>
+        <li>
+          {playButton(3)}
+        </li>
+        <li>
+          {playButton(4)}
+          </li>
+          <li>
+          {playButton(5)}
+          </li>
+          <li>
+          {playButton(6)}
+          </li>
+          <li>
+          {playButton(7)}
+          </li>
+          <li>
+          {playButton(8)}
+          </li>
+          <li>
+          {playButton(9)}
+          </li>
+          <li>
+          {playButton(10)}
+          </li>
+          <li>
+          {playButton(11)}
+          </li>
+          <li>
+          {playButton(12)}
+          </li>
+          <li>
+          {playButton(13)}
+          </li>
+        <li>
+          {playButton(14)}
+        </li>
+        <li>
+        {playButton(15)}
+        </li>
+      </ol>
+    </section>
+  </div>
+  );
+}
+
+export default App;
+
+
+
+        {/* {playButton(1)}
         {playButton(2)}
         {playButton(3)}
         {playButton(4)}
@@ -83,10 +147,4 @@ function App() {
         {playButton(12)}
         {playButton(13)}
         {playButton(14)}
-        {playButton(15)}
-      </div>
-    </section>
-  );
-}
-
-export default App;
+      {playButton(15)} */}
