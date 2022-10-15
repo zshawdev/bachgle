@@ -51,13 +51,11 @@ let bach;
   return bach = await fetchJson("bach.json");
 })();
 
-
-
 function playButton(number) {
   number = number.toString().padStart(2, '0');
   const invention = bach[`invention-${number}`]
   return (
-    <button onClick={() => loadMidi(invention)}>
+    <button className="playButton" onClick={() => loadMidi(invention)}>
     {invention.header.name}
     </button>
   )
@@ -66,11 +64,26 @@ function playButton(number) {
 function App() {
   console.log(bach)
   return (
+    
     <section className="section-invention">
       <h2>"Two Bark" Inventions</h2>
       <div className="button-group">
         <button onClick={() => playBark("C5")}>C</button>
         {playButton(1)}
+        {playButton(2)}
+        {playButton(3)}
+        {playButton(4)}
+        {playButton(5)}
+        {playButton(6)}
+        {playButton(7)}
+        {playButton(8)}
+        {playButton(9)}
+        {playButton(10)}
+        {playButton(11)}
+        {playButton(12)}
+        {playButton(13)}
+        {playButton(14)}
+        {playButton(15)}
       </div>
     </section>
   );
