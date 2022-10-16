@@ -2,6 +2,8 @@
 
 Bachgle ("Bach" + "beagle") is a web app created as part of the beagle-themed BeagleHacks hackathon—it allows one to hear Bach’s two-part inventions performed *a cappella* by beagles!
 
+*Make sure to unmute the video below to here Bachgle in action!*
+
 https://user-images.githubusercontent.com/82951334/196015154-acdec0a8-0009-4ff5-922d-da9f2df82d92.mov
 
 Bachgle is built primarily with React & the Tone.js Web Audio framework.
