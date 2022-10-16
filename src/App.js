@@ -56,9 +56,10 @@ function playButton(number) {
   const invention = bach[`invention-${number}`]
   return (
     <button className="play-button" onClick={() => loadMidi(invention)}>
+      <img className="play-button__icon--beagle-head u-right" src="images/beagle-head.png" />
       <img className="play-button__icon--play" src="images/play3.svg" />
       {invention.header.name}
-      <img className="play-button__icon--beagle-head" src="images/beagle-head.png" />
+      <img className="play-button__icon--beagle-head u-left" src="images/beagle-head.png" />
     </button>
   )
 }

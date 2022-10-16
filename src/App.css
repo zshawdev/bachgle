@@ -162,7 +162,14 @@ INVENTION
   height: 100%;
   max-height: 2.8rem;
   position: relative;
+}
+
+.u-left {
   left: 1rem;
+}
+
+.u-right {
+  right: 1rem;
 }
 
 
