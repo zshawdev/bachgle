@@ -1,4 +1,4 @@
-# Bachgel
+# Bachgle
 
 Bachgle ("Bach" + "beagle") is a web app created as part of the beagle-themed BeagleHacks hackathon—it allows one to hear Bach’s two-part inventions performed *a cappella* by beagles!
 
