@@ -82,9 +82,9 @@ function App() {
         <li>
           {playButton(1)}
         </li>
-        <li>
+        {/* <li>
           {playButton(2)}
-        </li>
+        </li> */}
         <li>
           {playButton(3)}
         </li>
