@@ -72,8 +72,9 @@ function App() {
       <img className="header-image" src="images/bachgle.png" />
       <p className="description">Hear the greatest composer of canine-kind.</p>
       <button className="play-button play-button--play" onClick={() => playBark("C5")}>
-        Initialize
+        Honor Bachgel
       </button>
+      <p className="description--subtext">One must first pay respect to Bachgel to be serenaded by the sweet sonorities of his muses.</p>
     </header>
     <section className="section-invention container">
       <h2 className="heading-2">"Two-Bark" Inventions</h2>
@@ -81,9 +82,9 @@ function App() {
         <li>
           {playButton(1)}
         </li>
-        <li>
+        {/* <li>
           {playButton(2)}
-        </li>
+        </li> */}
         <li>
           {playButton(3)}
         </li>
