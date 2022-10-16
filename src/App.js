@@ -132,21 +132,3 @@ function App() {
 }
 
 export default App;
-
-
-
-        {/* {playButton(1)}
-        {playButton(2)}
-        {playButton(3)}
-        {playButton(4)}
-        {playButton(5)}
-        {playButton(6)}
-        {playButton(7)}
-        {playButton(8)}
-        {playButton(9)}
-        {playButton(10)}
-        {playButton(11)}
-        {playButton(12)}
-        {playButton(13)}
-        {playButton(14)}
-      {playButton(15)} */}
