@@ -1,6 +1,6 @@
-# Bachgle
+# Bachgle (Winner of BeagleHacks)
 
-Bachgle ("Bach" + "beagle") is a web app created as part of the beagle-themed BeagleHacks hackathon—it allows one to hear Bach’s two-part inventions performed *a cappella* by beagles!
+Bachgle ("Bach" + "beagle") is a web app created as part of the beagle-themed BeagleHacks hackathon (of which it was one of three winners)—it allows one to hear Bach’s two-part inventions performed *a cappella* by beagles!
 
 *Make sure to unmute the video below to here Bachgle in action!*
 
